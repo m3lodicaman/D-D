@@ -28,4 +28,5 @@ for x in range(3):
 turtle.penup()
 turtle.goto(90,-140)
 turtle.pendown()
-turtle.write("Kai Turanski", font=("Arial", 20, "normal"),align="center")
+name1 = input("Please input the name of the first player: ")
+turtle.write(name1, font=("Arial", 20, "normal"),align="center")
